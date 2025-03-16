@@ -323,7 +323,17 @@ button:focus {
 .myAvtar {
   justify-content: center !important;
   padding-top: 9em !important;
+
 }
+.img-fluid{
+  border-radius: 10%;
+  border: 5px solid var(--image-gradient);
+  box-shadow: 0 0 15px  var(--image-gradient);
+  transition: 0.5s;
+  width: 350px;
+  height: 350px;
+}
+
 
 @media (max-width: 767px) {
   .myAvtar {
@@ -348,7 +358,9 @@ button:focus {
 .home-about-body {
   padding-top: 50px;
   font-size: 1.2em !important;
-  text-align: left;
+  text-align: justify;
+  width: 80%;
+  justify-content: center !important;
 }
 
 .home-about-social {
