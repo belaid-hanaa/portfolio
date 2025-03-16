@@ -353,13 +353,14 @@ button:focus {
 
 .home-about-social {
   text-align: center !important;
-  padding-top: 25px;
+  padding-top: 10px;
+  padding-bottom: 5px;
   color: var(--homeabouttext) !important;
 }
 
 .home-about-social-links {
   justify-content: center !important;
-  padding-top: 15px !important;
+  padding-top: 10px !important;
   display: inline-block !important;
   position: relative !important;
   padding-inline-start: 0 !important;
@@ -420,26 +421,42 @@ button:focus {
   background-color: var(--footer);
   bottom: 0 !important;
   padding-top: 10px !important;
-  padding-bottom: 8px !important ;
-}
-.footer-copywright {
-  text-align: center !important;
+  padding-bottom: 8px !important;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  height: 55px; 
 }
 
+.footer-copywright,
 .footer-body {
-  z-index: 1;
-  text-align: center !important;
+  text-align: center !important; 
 }
 
-@media (max-width: 767px) {
-  .footer-copywright {
-    text-align: center !important;
-  }
+.footer h3 { 
+  font-size: 3em;
+  color: var(--footertext) !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
 
+.footer-icons {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+  padding: 0 !important;
+}
+
+.blockquote-footer {
+  color: var(--quote) !important;
+}
+
+@media (max-width: 50px) {
+  .footer-copywright,
   .footer-body {
     text-align: center !important;
   }
 }
+
 
 .footer h3 {
   font-size: 1em;
