@@ -283,7 +283,9 @@ button:focus {
   padding-bottom: 10px;
   font-family: "Press Start 2P", sans-serif;
   font-size: 50px;
+
 }
+
 
 .heading-name {
   font-family: "Press Start 2P", sans-serif;
@@ -436,7 +438,8 @@ button:focus {
   display: flex; 
   flex-direction: column; 
   justify-content: center; 
-  height: 55px; 
+  max-height: 55px; 
+  
 }
 
 .footer-copywright,
@@ -844,17 +847,52 @@ button:focus {
 /* Description de la technologie */
 .tech-description {
   color: var(--backgroundloader--backgroundloader); 
-  font-size: 18px; /* Agrandir la taille de la description */
+  font-size: 18px; 
   line-height: 1.7;
   margin-top: 0;
   text-align: center;
 }
 
 /* Disposition des cartes */
+
+
+/* Conteneur principal qui masquera les cartes qui sont hors de l'écran */
 .tech-stack-row {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px; 
-  padding-bottom: 60px;
+  justify-content: start;
+  overflow: hidden; /* Masque les cartes qui sortent */
+  width: 100%;
+  position: relative;
 }
+
+/* Conteneur des cartes qui va défiler */
+.tech-stack-wrapper {
+  display: flex;
+  animation: slide-left 10s linear infinite; /* Animation qui déplace le conteneur de droite à gauche */
+}
+
+/* Animation du mouvement de droite à gauche */
+@keyframes slide-left {
+  0% {
+    transform: translateX(100%); /* Commence à l'extrême droite */
+  }
+  100% {
+    transform: translateX(-100%); /* Se déplace à l'extrême gauche */
+  }
+}
+
+/* Style des cartes individuelles */
+.tech-icons {
+  flex: 0 0 auto; /* Les cartes ne se redimensionnent pas */
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+.project-heading-skills {
+  font-size: 1.5rem; /* Ajuste la taille du texte selon ton design */
+  font-weight: bold;
+  color: #333; /* Couleur du texte */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
