@@ -8,33 +8,16 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
+          Passionate about technology and innovation, I offer services in <span className="purple"> web development, data analytics, and artificial intelligence,</span>
+          designing high-performance solutions tailored to each project's needs. My expertise also extends to<span className="purple"> data engineering, design, 
+          as well as management and organization.</span> In addition to my technical skills, I am <span className="purple">actively involved in managing and organizing events within clubs and associations,</span>
+          bringing a structured and efficient approach to planning, coordination, and execution. With this dual expertise, I help my clients transform their ideas into concrete achievements,
+          combining innovation, creativity, and strategic management. 🚀✨
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          
+          <footer className="blockquote-footer">Hanaa Belaid </footer>
         </blockquote>
       </Card.Body>
     </Card>

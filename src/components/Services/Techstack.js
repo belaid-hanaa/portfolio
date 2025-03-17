@@ -1,69 +1,29 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
+// Importer les images correspondantes à chaque technologie
+import Image from "../../Assets/avatar.svg";
 function Techstack() {
+  const techs = [
+    { img: Image, title: "C++", description: "A powerful language for system and application programming." },
+    { img: Image, title: "JavaScript", description: "The language of the web for dynamic client-side programming." },
+    { img: Image, title: "Go", description: "A statically typed, compiled language for scalable applications." },
+    { img: Image, title: "Node.js", description: "JavaScript runtime for building fast and scalable server-side applications." },
+    { img: Image, title: "React", description: "A library for building user interfaces with reusable components." },
+   
+  ];
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
+      {techs.map((tech, index) => (
+        <Col key={index} xs={4} md={2} className="tech-card">
+          <div className="tech-card-content text-center">
+            <img src={tech.img} alt={tech.title} className="tech-image" />
+            <h4 className="tech-title">{tech.title}</h4>
+            <p className="tech-description">{tech.description}</p>
+          </div>
+        </Col>
+      ))}
     </Row>
   );
 }
