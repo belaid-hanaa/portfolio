@@ -798,12 +798,12 @@ button:focus {
   align-items: center;
   justify-content: center;
   min-width: 280px; /* Largeur de la carte augmentée */
-  
+  position: relative;
 }
 
 /* Effet de survol */
 .tech-card:hover {
-  background-color: #1d4ed8;
+  background-color: var(--homeabouttext);
   transform: scale(1.1);
 }
 
@@ -823,13 +823,13 @@ button:focus {
   object-fit: cover; 
   margin-bottom: 25px; 
   border-radius: 50%;
-  border: 4px solid #fff;
+  border: 4px solid var(--backgroundloader);
   transition: all 0.3s ease; 
 }
 
 /* Effet de survol sur l'image */
 .tech-card:hover .tech-image {
-  border-color: #fff; 
+  border-color: var(--backgroundloader); 
   transform: scale(1.1); /* Légère mise à l'échelle de l'image */
 }
 
@@ -837,13 +837,13 @@ button:focus {
 .tech-title {
   font-size: 24px; /* Augmenter la taille du titre */
   font-weight: bold;
-  color: white;
+  color: var(--backgroundloader);
   margin-bottom: 20px; 
 }
 
 /* Description de la technologie */
 .tech-description {
-  color: #d1d5db; 
+  color: var(--backgroundloader--backgroundloader); 
   font-size: 18px; /* Agrandir la taille de la description */
   line-height: 1.7;
   margin-top: 0;
