@@ -898,3 +898,18 @@ button:focus {
 }
 
 
+
+
+.project-img {
+  width: 50%;
+  max-height: 20px;
+  object-fit: cover;
+  border-radius: 40% !important; /* Rounded corners */
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.project-card:hover .project-img {
+  transform: scale(1.1); 
+  border-radius: 45px !important; /* Optional: change the border radius on hover */
+}

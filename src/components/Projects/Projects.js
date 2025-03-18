@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import fstt from "../../Assets/Projects/fstt.png";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -15,76 +15,65 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          <strong className="purple"> My Recent Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Parkinson-Disease-Classification-ML"
+              description="This project classifies Parkinson's disease using Decision Trees, SVM, and CatBoost models built from scratch. Feature selection is performed using the Evolutionary Feature Selection Algorithm (EFSA) to improve model accuracy. The project includes data preprocessing, model training, and evaluation."
+              ghLink="https://github.com/belaid-hanaa/Parkinson-Disease-Classification-ML"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="ML Data Analysis"
+              description="This Python application analyzes datasets using various ML algorithms like linear regression, decision trees, Naïve Bayes, SVM, Random Forest, K-NN, K-Means, and neural networks. It includes data import/export, preprocessing, model evaluation, result visualization, and provides documentation and tutorials."
+              ghLink="https://github.com/belaid-hanaa/Machine-Learning-Application-for-Data-Analysis-in-Python"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Fuzzy Decision Making"
+              description="This project implements a fuzzy case-based reasoning (Fuzzy CBR) engine for automated decision-making. It combines fuzzy logic with case-based learning to solve complex problems, evaluating past case similarities. The system is designed for applications like diagnosis, classification, and prediction, with adjustable confidence levels."
+              ghLink="https://github.com/belaid-hanaa/Fuzzy-Case-Based-Reasoning-for-Automated-Decision-Making"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Real-Time-ASL-Recognition"
+              description="This project aims to build a real-time ASL prediction system that can recognize American Sign Language gestures and display corresponding subtitles. The system leverages Deep Learning models (CNN) for gesture recognition, Flask for the web application."
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              imgPath={fstt}
+              title="University-Management-System"
+              description="A web application to manage the Faculty of Sciences and Techniques (FSTT). It includes dynamic pages for departments, formation, news, and interactive dashboards for students, professors, and staff. Features role-based access, request management, announcements, and timetable handling."
+              ghLink="https://github.com/belaid-hanaa/University-Management-System"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Event-Management-System"
+              description="A Python-based event management application using Qt for the GUI and MySQL for the database. It allows users to create, manage, and track events, including scheduling, participant registration, and notifications. The system provides an easy-to-use interface for both event organizers and attendees."
+              ghLink="https://github.com/belaid-hanaa/Event-Management-System"
+             
             />
           </Col>
         </Row>
