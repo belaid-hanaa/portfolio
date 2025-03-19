@@ -298,6 +298,18 @@ button:focus {
   font-size: 48px;
 }
 
+.typer {
+  padding: 50px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .typer {
+    padding: 50px;
+    text-align: left !important;
+  }
+}
+
 .Typewriter__wrapper {
   font-size: 2.2em !important;
   color: var(--maintypewritter) !important;
@@ -361,7 +373,7 @@ button:focus {
   padding-top: 50px;
   font-size: 1.2em !important;
   text-align: justify;
-  width: 80%;
+  width: 100%;
 }
 
 .home-about-social {

@@ -21,7 +21,7 @@ function Home() {
                 <strong className="main-name"> Hanaa Belaid </strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "center" }}>
+              <div className="typer"  >
                 <Type />
               </div>
             </Col>
