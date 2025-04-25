@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a99a45dd.css",
-    "main.js": "/portfolio/static/js/main.75b5b4e9.js",
+    "main.css": "/portfolio/static/css/main.c4b9a5c3.css",
+    "main.js": "/portfolio/static/js/main.1cc8efd5.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/about.png": "/portfolio/static/media/about.e7f6e5ba4fbf49e0826c.png",
     "static/media/logo.png": "/portfolio/static/media/logo.6cf1172581da30a90b36.png",
-    "static/media/cv_hanaa_belaid.pdf": "/portfolio/static/media/cv_hanaa_belaid.b0f97fb9ed22ba111f21.pdf",
     "static/media/me.jpg": "/portfolio/static/media/me.459da7c701dc82e4ba4e.jpg",
+    "static/media/cv_hanaa_belaid.pdf": "/portfolio/static/media/cv_hanaa_belaid.9e83ee671367434cdad4.pdf",
     "static/media/ml.jpg": "/portfolio/static/media/ml.ea781ff6162dadfa0028.jpg",
+    "static/media/fintech.jpg": "/portfolio/static/media/fintech.23c6271cb1091f96f391.jpg",
     "static/media/TE.jpeg": "/portfolio/static/media/TE.8a74b8cda044fc57fc64.jpeg",
     "static/media/lgd2.jpg": "/portfolio/static/media/lgd2.61a093de6c86906f8b68.jpg",
     "static/media/4.png": "/portfolio/static/media/4.e3ebffde88b0bef6bede.png",
@@ -16,15 +17,15 @@
     "static/media/6.jpg": "/portfolio/static/media/6.941fd68dfea04de1af1c.jpg",
     "static/media/2.jpg": "/portfolio/static/media/2.33a6dadc8ef16a232655.jpg",
     "static/media/3.png": "/portfolio/static/media/3.85281d6939d4dd01a752.png",
-    "static/media/pre.svg": "/portfolio/static/media/pre.e98b20f5690540cf1044.svg",
+    "static/media/pre.svg": "/portfolio/static/media/pre.2c152bc47db5e473ecc5.svg",
     "index.html": "/portfolio/index.html",
-    "main.a99a45dd.css.map": "/portfolio/static/css/main.a99a45dd.css.map",
-    "main.75b5b4e9.js.map": "/portfolio/static/js/main.75b5b4e9.js.map",
+    "main.c4b9a5c3.css.map": "/portfolio/static/css/main.c4b9a5c3.css.map",
+    "main.1cc8efd5.js.map": "/portfolio/static/js/main.1cc8efd5.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a99a45dd.css",
-    "static/js/main.75b5b4e9.js"
+    "static/css/main.c4b9a5c3.css",
+    "static/js/main.1cc8efd5.js"
   ]
 }
