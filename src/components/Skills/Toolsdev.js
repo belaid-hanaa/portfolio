@@ -5,17 +5,17 @@ import {
   SiFastapi,
   SiDjango,
   SiReact,
+  SiApachekafka,
+  SiFlask,
   SiPostman,
   SiDocker,
   SiGit,
   SiUml,
-  SiSpringboot,
 } from "react-icons/si";
 
 
 
 const toolsdev = [
-  { icon: SiSpringboot, name: "Spring Boot" },
   { icon: SiLaravel, name: "Laravel" },
   { icon: SiFastapi, name: "FastAPI" },
   { icon: SiReact, name: "React" },
@@ -23,6 +23,8 @@ const toolsdev = [
   { icon: SiPostman, name: "Postman" },
   { icon: SiDocker, name: "Docker" },
   { icon: SiGit, name: "Git" },
+  { icon: SiApachekafka, name: "Kafka" },
+  { icon: SiFlask, name: "Flask" },
   { icon: SiUml, name: "UML" }
 ];
 

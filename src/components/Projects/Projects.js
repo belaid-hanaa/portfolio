@@ -8,8 +8,7 @@ import analyis from "../../Assets/Projects/2.jpg";
 import CBR from "../../Assets/Projects/3.png";
 import asl from "../../Assets/Projects/4.png";
 import Event from "../../Assets/Projects/6.jpg";
-
-
+import fintech from "../../Assets/Projects/fintech.jpg";
 
 
 function Projects() {
@@ -30,7 +29,15 @@ function Projects() {
               
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fintech}
+              title="FinTech"
+              description="This Fintech project is built on a microservices architecture using Docker, Kubernetes, and a CI/CD pipeline with Jenkins. It integrates blockchain technology through Web3.js and MetaMask, and includes services such as account management and Ethereum price tracking. Kafka is used for real-time notifications, and PostgreSQL is used for data storage."
+              ghLink="https://github.com/HoussamZn/FinTech"
+              
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={analyis}
